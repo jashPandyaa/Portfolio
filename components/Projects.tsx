@@ -10,7 +10,7 @@ const Projects = () => {
         <h1 className='heading text-slate-100'>
             A small selection of my {" "}
             <span className='text-purple'>
-                Recent Projects
+                recent projects
             </span>
         </h1>
         <div className='flex flex-wrap  items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
