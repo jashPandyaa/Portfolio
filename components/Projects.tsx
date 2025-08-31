@@ -22,9 +22,9 @@ const Projects = () => {
                 iconLists,
                 link,
              }) => (
-                <div className='sm:h-[41rem] lg:min-h-[32.5] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw] text-white' key={id}>
+                <div className='sm:h-[41rem] lg:min-h-[32.5rem] h-[28rem] flex items-center justify-center sm:w-[570px] w-[90vw] text-white' key={id}>
                     <PinContainer title={link} href={link}> 
-                        <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10'>
+                        <div className='relative flex items-center justify-center sm:w-[570px] w-[90vw] overflow-hidden sm:h-[40vh] h-[25vh] mb-10'>
                             <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
                                 <img src="/bg.png" alt="bg-img" />
                             </div>
@@ -40,10 +40,20 @@ const Projects = () => {
                             <div className='flex items-center'>
                                 {iconLists.map((icon , index) => (
                                     <div key={icon} className='border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center ' style={{
-                                        transform: `translateX(-${5 * index * 2}px)`}}> 
-                                        <img src={icon} alt={icon} className='p-2' style={{ 
-                                             filter: icon.includes('next.svg') ? 'invert(1)' : 'invert(0)' 
-                                         }} />
+                                        transform: `translateX(-${5 * index * 2}px)`
+                                    }}>
+                                        <img src={icon} alt={icon} className='p-2' style={{
+                                            filter: 
+                                                // Keep current filter logic for these icons
+                                                icon.includes('next.svg') || 
+                                                icon.includes('re.svg') || 
+                                                icon.includes('tail.svg') || 
+                                                icon.includes('stream.svg') || 
+                                                icon.includes('vercel.svg') || 
+                                                icon.includes('ts.svg')
+                                                    ? (icon.includes('next.svg') ? 'invert(1)' : 'invert(0)')
+                                                    : 'brightness(0) saturate(100%) invert(79%) sepia(25%) saturate(468%) hue-rotate(225deg) brightness(98%) contrast(94%)'
+                                        }} />
                                     </div>
                                 ))}
                                 <div className='flex justify-center items-center ms-3 text-purple font-bold lg:text-lg text-sm'>
