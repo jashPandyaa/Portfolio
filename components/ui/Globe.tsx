@@ -3,13 +3,18 @@ import { useEffect, useRef, useState } from "react";
 import { Color, Scene, Fog, PerspectiveCamera, Vector3 } from "three";
 import ThreeGlobe from "three-globe";
 import { useThree, Canvas, extend, useFrame } from "@react-three/fiber";
-import type { Object3DNode } from "three";
+import type { Object3D } from "three";
 import { OrbitControls } from "@react-three/drei";
 import countries from "@/data/globe.json";
 
+// declare module "@react-three/fiber" {
+//   interface ThreeElements {
+//     threeGlobe: Object3D<Event, typeof ThreeGlobe>;
+//   }
+// }
 declare module "@react-three/fiber" {
   interface ThreeElements {
-    threeGlobe: Object3DNode<ThreeGlobe, typeof ThreeGlobe>;
+    threeGlobe: Object3D;
   }
 }
 
@@ -106,7 +111,7 @@ function GlobeComponent({ globeConfig, data }: WorldProps) {
     | null
   >(null);
 
-  const globeRef = useRef<ThreeGlobe>();
+  const globeRef = useRef<ThreeGlobe>(null);
   const { scene } = useThree();
   const sanitizedData = sanitizeArcData(data);
 

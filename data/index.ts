@@ -208,15 +208,15 @@ export const workExperience = [
 
 export const socialMedia = [
   {
-    id: 1,
+    id: "1",
     img: "/git.svg",
   },
   {
-    id: 2,
+    id: "2",
     img: "/twit.svg",
   },
   {
-    id: 3,
+    id: "3",
     img: "/link.svg",
   },
 ];
