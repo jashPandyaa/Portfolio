@@ -5,6 +5,7 @@ import Projects from "@/components/Projects";
 import { navItems } from "@/data";
 import Experience from "@/components/Experience";
 import DevPhilosophy from "@/components/DevPhilosophy";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
         <Projects />
         <Experience />
         <DevPhilosophy />
+        {/*  TODO : Education Section & Achievments Section & Languages */}
+        <Footer />
       </div>
     </main>
   );
