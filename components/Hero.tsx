@@ -61,7 +61,7 @@ const Hero = () => {
               <span className="px-3 py-1 bg-cyan-500 text-green-950 rounded-full text-sm">MongoDB</span>
               <span className="px-3 py-1 bg-yellow-500/20 text-yellow-300 rounded-full text-sm">Express</span>
               </div>
-          <div className="flex gap-4 flex-col sm:flex-row">
+              <div className="flex gap-4 flex-col sm:flex-row">
                 <a href="#projects">
                   <MagicButton
                     title="View Projects"
