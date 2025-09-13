@@ -39,57 +39,45 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+          
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             WELCOME TO MY DIGITAL PORTFOLIO
           </p>
 
-          {/**
-           *  Link: https://ui.aceternity.com/components/text-generate-effect
-           *
-           *  change md:text-6xl, add more responsive code
-           */}
           <TextGenerateEffect
           words="Building Full-Stack Solutions from Travel Platforms to SaaS Applications"
           className="text-white text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white">
-            Hi! I&apos;m Jash, a MERN Stack Developer with 4+ full-stack projects including 
-            travel platforms, blogging systems, and data visualization tools.
-          </p>
+              <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white">
+                Hi! I&apos;m <span className="text-purple">Jash Pandya</span>, a full-stack web developer with 4+ full-stack projects including 
+                travel platforms, blogging systems, and data visualization tools.
+              </p>
           
           {/* // Add after your bio */}
-<div className="flex gap-4 mb-6 flex-wrap justify-center">
-  <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">React</span>
-  <span className="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm">Node.js</span>
-  <span className="px-3 py-1 bg-cyan-500 text-green-950 rounded-full text-sm">MongoDB</span>
-  <span className="px-3 py-1 bg-yellow-500/20 text-yellow-300 rounded-full text-sm">Express</span>
-</div>
-
-          {/* <a href="#about">
-            <MagicButton
-              title="See my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a> */}
+              <div className="flex gap-4 mb-6 flex-wrap justify-center">
+              <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">React</span>
+              <span className="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm">Node.js</span>
+              <span className="px-3 py-1 bg-cyan-500 text-green-950 rounded-full text-sm">MongoDB</span>
+              <span className="px-3 py-1 bg-yellow-500/20 text-yellow-300 rounded-full text-sm">Express</span>
+              </div>
           <div className="flex gap-4 flex-col sm:flex-row">
-  <a href="#projects">
-    <MagicButton
-      title="View Projects"
-      icon={<FaLocationArrow />}
-      position="right"
-    />
-  </a>
-  <a href="https://github.com/jashPandyaa/" target="_blank" rel="noopener noreferrer">
-    <MagicButton
-      title="GitHub"
-      icon={<FaGithub />}
-      position="right"
-      otherClasses="border-white/20"
-    />
-    </a>
-  </div>
+                <a href="#projects">
+                  <MagicButton
+                    title="View Projects"
+                    icon={<FaLocationArrow />}
+                    position="right"
+                  />
+          </a>
+          <a href="https://github.com/jashPandyaa/" target="_blank" rel="noopener noreferrer">
+            <MagicButton
+              title="GitHub"
+              icon={<FaGithub />}
+              position="right"
+              otherClasses="border-white/20"
+            />
+          </a>
+        </div>
         </div>
       </div>
     </div>
