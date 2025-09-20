@@ -8,7 +8,7 @@ A modern, responsive portfolio website showcasing my journey as a full-stack dev
 
 ## 📸 Preview
 
-![Portfolio Preview](./public/Portfolio1)
+![Portfolio Preview](./public/Portfolio1.png)
 
 ## ✨ Features
 
