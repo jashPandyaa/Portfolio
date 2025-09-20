@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Jash Pandya - Portfolio Website
 
-## Getting Started
+A modern, responsive portfolio website showcasing my journey as a full-stack developer. Built with cutting-edge technologies and featuring smooth animations, interactive elements, and a comprehensive display of my projects and achievements.
 
-First, run the development server:
+## 🌐 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**[View Live Portfolio](https://jashpandya-portfolio.vercel.app/)**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Preview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Portfolio Preview](./public/Portfolio1.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Features
 
-## Learn More
+- **Modern Design**: Clean, professional interface with smooth animations
+- **Responsive Layout**: Fully optimized for desktop, tablet, and mobile devices
+- **Interactive Animations**: Powered by Framer Motion for engaging user experience
+- **Project Showcase**: Detailed presentation of 6+ full-stack projects
+- **Professional Timeline**: Work experience and educational journey visualization
+- **Achievement Section**: Academic accomplishments and recognitions
+- **Contact Integration**: Easy ways to connect and collaborate
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework**: [Next.js 14](https://nextjs.org/) - React framework for production
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- **Animations**: [Framer Motion](https://www.framer.com/motion/) - Motion library for React
+- **Deployment**: [Vercel](https://vercel.com/) - Platform for frontend frameworks
+- **Language**: TypeScript/JavaScript
+- **Icons**: Lucide React icons
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Key Sections
 
-## Deploy on Vercel
+### 1. Hero Section
+- Professional introduction
+- Call-to-action buttons
+- Smooth scrolling navigation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 2. Projects Portfolio
+Featured projects including:
+- **Meet.AI**: AI-Powered Video Conferencing SaaS
+- **Quill**: AI-Powered Blogging Platform (MERN Stack)
+- **Wanderlust**: Travel Listing Platform
+- **Excel Analytics Platform**: React-based dashboard
+- **AtmosVue**: Weather Dashboard
+- **Todo List**: Task Management App
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 3. Experience Timeline
+- Development philosophy
+- Project workflow methodology
+- Client collaboration approach
+
+### 4. Education & Achievements
+- Academic background (B.E. Computer Engineering)
+- Awards and recognitions
+- Community involvement
+
+## 📞 Contact
+
+**Jash Pandya**
+- Portfolio: [https://jashpandya-portfolio.vercel.app/](https://jashpandya-portfolio.vercel.app/)
+- LinkedIn: [Connect with me](https://linkedin.com/in/jashpandya)
+- Email: jashpandyaa@gmail.com
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Framer Motion for amazing animations
+- Tailwind CSS for rapid styling
+- Next.js team for the fantastic framework
+- Vercel for seamless deployment
+- All open source contributors
+
+---
+
+⭐ **If you found this project helpful, please give it a star!** ⭐
