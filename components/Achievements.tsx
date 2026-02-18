@@ -31,11 +31,11 @@ const Achievements = () => {
     },
     {
       id: 4,
-      title: "Community Contributor",
-      category: "Professional Development",
-      description: "Active participant in Cloud Community Days and Flutter seminars",
+      title: "Competitive Programmer",
+      category: "275+ LeetCode Solved",
+      description: "Regular problem solving on LeetCode and GeeksForGeeks",
       icon: "🌟",
-      year: "2025"
+      year: "2026"
     }
   ];
 

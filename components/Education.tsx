@@ -10,7 +10,7 @@ const Education = () => {
       degree: "B.E. Computer Engineering",
       institution: "Gujarat Technological University",
       duration: "2023 - 2027",
-      cgpa: "9.28",
+      cgpa: "9.7",
       description: "Currently pursuing Bachelor's in Computer Engineering with focus on full-stack development and modern web technologies."
     },
     {

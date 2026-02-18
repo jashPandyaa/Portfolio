@@ -50,7 +50,7 @@ const Hero = () => {
           />
 
               <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white">
-                Hi! I&apos;m <span className="text-purple">Jash Pandya</span>, a full-stack web developer with 4+ full-stack projects including 
+                Hi! I&apos;m <span className="text-purple">Jashkumar Pandya</span>, a full-stack web developer with 4+ full-stack projects including 
                 travel platforms, blogging systems, and data visualization tools.
               </p>
           
