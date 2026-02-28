@@ -1,10 +1,10 @@
-# 🚀 Jash Pandya - Portfolio Website
+# 🚀 Jashkumar Pandya - Portfolio Website
 
 A modern, responsive portfolio website showcasing my journey as a full-stack developer. Built with cutting-edge technologies and featuring smooth animations, interactive elements, and a comprehensive display of my projects and achievements.
 
 ## 🌐 Live Demo
 
-**[View Live Portfolio](https://jashpandya-portfolio.vercel.app/)**
+**[View Live Portfolio](https://pandya-portfolio.vercel.app/)**
 
 ## 📸 Preview
 
@@ -58,7 +58,7 @@ Featured projects including:
 ## 📞 Contact
 
 **Jash Pandya**
-- Portfolio: [https://jashpandya-portfolio.vercel.app/](https://jashpandya-portfolio.vercel.app/)
+- Portfolio: [https://jashpandya-portfolio.vercel.app/](https://pandya-portfolio.vercel.app/)
 - LinkedIn: [Connect with me](https://linkedin.com/in/jashpandya)
 - Email: jashpandyaa@gmail.com
 
