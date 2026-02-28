@@ -25,14 +25,14 @@ const Achievements = () => {
       id: 3,
       title: "Outstanding CGPA",
       category: "Academic Performance",
-      description: "Maintaining exceptional 9.28 CGPA in Computer Engineering program",
+      description: "Maintaining exceptional 9.7 CGPA in Computer Engineering program",
       icon: "⭐",
       year: "2023-2027"
     },
     {
       id: 4,
       title: "Competitive Programmer",
-      category: "275+ LeetCode Solved",
+      category: "300+ LeetCode Solved",
       description: "Regular problem solving on LeetCode and GeeksForGeeks",
       icon: "🌟",
       year: "2026"
