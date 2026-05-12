@@ -32,7 +32,7 @@ const Footer = () => {
 
         <div className='flex mt-16 md:flex-row flex-col justify-between items-center'>             
     <p className='text-white md:text-base text-sm md:font-normal font-semibold mt-4'>                 
-        Copyright © 2025 Jash Pandya             
+        Copyright © 2026 Jash Pandya             
     </p>             
     <div className='flex items-center md:gap-3 gap-6'>                 
         {/* GitHub */}
@@ -59,7 +59,7 @@ const Footer = () => {
             </svg>
         </a>
         <a 
-            href="https://leetcode.com/u/JashPandya/" 
+            href="https://leetcode.com/u/JashkumarPandya/" 
             target="_blank" 
             rel="noopener noreferrer"
             className='w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 mt-4 hover:bg-opacity-90 transition-all duration-300'

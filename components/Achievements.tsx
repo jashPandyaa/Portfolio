@@ -32,7 +32,7 @@ const Achievements = () => {
     {
       id: 4,
       title: "Competitive Programmer",
-      category: "300+ LeetCode Solved",
+      category: "425+ LeetCode Solved",
       description: "Regular problem solving on LeetCode and GeeksForGeeks",
       icon: "🌟",
       year: "2026"
